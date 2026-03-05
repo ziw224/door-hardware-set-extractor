@@ -110,3 +110,22 @@ python scripts/quality_report.py \
   --pred "./out/bridgeport_hw_schedule_rev0.json" \
   --out "./eval/bridgeport_quality.json"
 ```
+
+## GitHub Pages deployment
+
+This repo includes a static deployable app in `docs/`.
+
+1. Push current `master` to GitHub.
+2. In GitHub repo settings: **Pages** -> **Build and deployment** -> **Source**: `Deploy from a branch`.
+3. Branch: `master`, folder: `/docs`.
+4. Save and wait ~1-2 minutes.
+
+Then open:
+
+- `https://ziw224.github.io/door-hardware-set-extractor/`
+
+Notes:
+
+- Static mode has no backend write API.
+- `Save Corrected JSON` and `Download JSON` both download edited JSON locally.
+- Files loaded by the page are in `docs/data/*.json`.
