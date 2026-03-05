@@ -1,0 +1,1433 @@
+{
+  "meta": {
+    "instructions": [
+      "This draft is generated directly from PDF parsing, not copied from a prediction JSON.",
+      "Review each sampled set with the original PDF and correct mistakes.",
+      "Focus on qty, catalog_number, mfr, finish."
+    ],
+    "source_pdf": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+    "scored_fields": [
+      "qty",
+      "catalog_number",
+      "mfr",
+      "finish"
+    ],
+    "sample_size": 20,
+    "annotated_by": "codex_real_v1_rules",
+    "change_count": 83
+  },
+  "samples": [
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "227",
+      "description": null,
+      "location": {
+        "page_start": 168,
+        "page_end": 168,
+        "bbox": null,
+        "line_range": [
+          20,
+          47
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "3",
+          "description": "PIVOT SET",
+          "catalog_number": "7230F",
+          "mfr": null,
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "INTERMEDIATE PIVOT",
+          "catalog_number": "7230F",
+          "mfr": null,
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "STOREROOM LOCK 9K37D BES",
+          "catalog_number": "9K37D",
+          "mfr": "BES",
+          "finish": "626",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "SFIC CONST. CORE -",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "PERMANENT CORE -",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "SURFACE CLOSER SCUSH SRI TBSRT",
+          "catalog_number": "4040XP",
+          "mfr": "LCN",
+          "finish": "689",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "RAIN DRIP - AS REQUIRED AA ZER",
+          "catalog_number": "142AA",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "GASKETING AA ZER",
+          "catalog_number": "429AA-S",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    },
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "36",
+      "description": null,
+      "location": {
+        "page_start": 44,
+        "page_end": 45,
+        "bbox": null,
+        "line_range": [
+          32,
+          32
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "6",
+          "description": "HEAVYWEIGHT HINGE 5BB1HW 4.5 X - NRP AT",
+          "catalog_number": "5BB1HW",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "2",
+          "description": "POWER TRANSFER CON",
+          "catalog_number": "EPT10",
+          "mfr": "VON",
+          "finish": "689",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "ELEC EXIT",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "ELEC EXIT",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "RIM CYLINDER - AS",
+          "catalog_number": "IE72-PATD",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "PERMANENT CORE -",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "HIGH ENERGY",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "MATS/RAILS - AS",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    },
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "9",
+      "description": null,
+      "location": {
+        "page_start": 26,
+        "page_end": 26,
+        "bbox": null,
+        "line_range": [
+          34,
+          75
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "3",
+          "description": "HEAVYWEIGHT HINGE 5BB1HW 4.5 X NRP",
+          "catalog_number": "5BB1HW",
+          "mfr": "IVE",
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "POWER TRANSFER CON",
+          "catalog_number": "EPT10",
+          "mfr": "VON",
+          "finish": "689",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "INTEGRATED 12/24",
+          "catalog_number": "AD-300-CY-70-MT-RHO-B",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "SFIC CONST. CORE -",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "PERMANENT CORE -",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "SURFACE CLOSER 4040XP TBSRT/",
+          "catalog_number": "4040XP",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "ARMOR PLATE - AS",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "RAIN DRIP - AS REQUIRED AA ZER",
+          "catalog_number": "142AA",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    },
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "87",
+      "description": null,
+      "location": {
+        "page_start": 82,
+        "page_end": 83,
+        "bbox": null,
+        "line_range": [
+          48,
+          48
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "2",
+          "description": "PIVOT SET SET",
+          "catalog_number": "7230F",
+          "mfr": "IVE",
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "2",
+          "description": "INTERMEDIATE PIVOT INT",
+          "catalog_number": "7230F",
+          "mfr": "IVE",
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "2",
+          "description": "PUSH PLATE 8200 4\" X 16\"",
+          "catalog_number": null,
+          "mfr": "IVE",
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "2",
+          "description": "PULL PLATE 8303 10\" 4\" X 16\"",
+          "catalog_number": null,
+          "mfr": "IVE",
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "COORDINATOR COR X FL X MB - AS",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "AUTOMATIC OPERATOR BY SECTION 08 71",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "2",
+          "description": "WAVE ACTUATOR BY SECTION 08 71",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "2",
+          "description": "ARMOR PLATE 8400 34\" X 1\" LDW B-NH-A",
+          "catalog_number": null,
+          "mfr": "IVE",
+          "finish": "630",
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    },
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "79",
+      "description": null,
+      "location": {
+        "page_start": 76,
+        "page_end": 77,
+        "bbox": null,
+        "line_range": [
+          70,
+          70
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "6",
+          "description": "HEAVYWEIGHT HINGE 5BB1HW 4.5 X - NRP AT",
+          "catalog_number": "5BB1HW",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "CONST LATCHING BOLT - AS",
+          "catalog_number": "FB51T/FB61T",
+          "mfr": null,
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "PASSAGE SET 9K30N BES",
+          "catalog_number": "9K30N",
+          "mfr": "BES",
+          "finish": "626",
+          "notes": null
+        },
+        {
+          "qty": "2",
+          "description": "OH STOP X J BKT - AS",
+          "catalog_number": "90S",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    },
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "74",
+      "description": null,
+      "location": {
+        "page_start": 73,
+        "page_end": 73,
+        "bbox": null,
+        "line_range": [
+          44,
+          69
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "6",
+          "description": "HEAVYWEIGHT HINGE 5BB1HW 4.5 X - NRP AT",
+          "catalog_number": "5BB1HW",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "EXIT HARDWARE",
+          "catalog_number": "9827-L-BE-F-LBR-06-499F-SNB",
+          "mfr": null,
+          "finish": "626",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "SURFACE CLOSER 4040XP REG TBSRT/",
+          "catalog_number": "4040XP",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "SURFACE SCUSH TBSRT",
+          "catalog_number": "4040XP",
+          "mfr": null,
+          "finish": "689",
+          "notes": null
+        },
+        {
+          "qty": "2",
+          "description": "KICK PLATE 8400 10\" HIGH LDW B-CS",
+          "catalog_number": "8400",
+          "mfr": "IVE",
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "WALL STOP",
+          "catalog_number": "WS401/402CCV",
+          "mfr": "IVE",
+          "finish": "626",
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    },
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "43",
+      "description": null,
+      "location": {
+        "page_start": 51,
+        "page_end": 52,
+        "bbox": null,
+        "line_range": [
+          79,
+          79
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "6",
+          "description": "HEAVYWEIGHT HINGE 5BB1HW 4.5 X - NRP AT",
+          "catalog_number": "5BB1HW",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "POWER TRANSFER",
+          "catalog_number": "EPT10",
+          "mfr": null,
+          "finish": "689",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "CONST LATCHING BOLT - AS",
+          "catalog_number": "FB51T/FB61T",
+          "mfr": null,
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "INTEGRATED LOCK 12/24",
+          "catalog_number": "AD-300-CY-70-MT-RHO-B",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "SFIC CONST. CORE -",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "PERMANENT CORE -",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "COORDINATOR COR X FL X MB - AS",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "2",
+          "description": "DELAYED SURFACE",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    },
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "34",
+      "description": null,
+      "location": {
+        "page_start": 42,
+        "page_end": 42,
+        "bbox": null,
+        "line_range": [
+          37,
+          50
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "3",
+          "description": "HEAVYWEIGHT HINGE 5BB1HW 4.5 X",
+          "catalog_number": "5BB1HW",
+          "mfr": "IVE",
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "PASSAGE 9K30N BES",
+          "catalog_number": "9K30N",
+          "mfr": "BES",
+          "finish": "626",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "SURFACE 4040XP REG TBSRT/",
+          "catalog_number": "4040XP",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "KICK PLATE 8400 10\" HIGH LDW B-CS",
+          "catalog_number": "8400",
+          "mfr": "IVE",
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "WALL STOP",
+          "catalog_number": "WS401/402CCV",
+          "mfr": "IVE",
+          "finish": "626",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "GASKETING PSA BK ZER",
+          "catalog_number": "188SBK",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    },
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "253",
+      "description": null,
+      "location": {
+        "page_start": 175,
+        "page_end": 176,
+        "bbox": null,
+        "line_range": [
+          67,
+          67
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "2",
+          "description": "PIVOT SET",
+          "catalog_number": "7230F",
+          "mfr": null,
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "2",
+          "description": "INTERMEDIATE PIVOT",
+          "catalog_number": "7230F",
+          "mfr": null,
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "CONST LATCHING BOLT - AS",
+          "catalog_number": "FB51T/FB61T",
+          "mfr": null,
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "PUSH/PULL LATCH 5\" A L",
+          "catalog_number": "HL6",
+          "mfr": "SCH",
+          "finish": "626",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "OH STOP X J BKT - AS",
+          "catalog_number": "90S",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "WALL STOP",
+          "catalog_number": "WS401/402CCV",
+          "mfr": "IVE",
+          "finish": "626",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "ASTRAGAL Overlapping Lead Lined Astragal",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    },
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "171",
+      "description": null,
+      "location": {
+        "page_start": 150,
+        "page_end": 151,
+        "bbox": null,
+        "line_range": [
+          9,
+          19
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "1",
+          "description": "CENTER JAMB MOUNT",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "PRIVACY LOCK W/IND VIN BES",
+          "catalog_number": "45H0L15S",
+          "mfr": "BES",
+          "finish": "626",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "EMER. STOP",
+          "catalog_number": "299AS",
+          "mfr": null,
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "OH STOP GLY",
+          "catalog_number": "100S",
+          "mfr": null,
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "WALL STOP",
+          "catalog_number": "WS401/402CCV",
+          "mfr": "IVE",
+          "finish": "626",
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    },
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "29",
+      "description": null,
+      "location": {
+        "page_start": 39,
+        "page_end": 40,
+        "bbox": null,
+        "line_range": [
+          52,
+          52
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "3",
+          "description": "HEAVYWEIGHT HINGE 5BB1HW 4.5 X NRP",
+          "catalog_number": "5BB1HW",
+          "mfr": "IVE",
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "POWER TRANSFER",
+          "catalog_number": "EPT10",
+          "mfr": null,
+          "finish": "689",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "ELEC PANIC",
+          "catalog_number": "LXRX-LC-QEL-98-NL-CON-SNB",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "RIM CYLINDER - AS",
+          "catalog_number": "IE72-PATD",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "DOOR PULL NL",
+          "catalog_number": "VR910",
+          "mfr": "IVE",
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "SURFACE CLOSER SCUSH SRI TBSRT",
+          "catalog_number": "4040XP",
+          "mfr": "LCN",
+          "finish": "689",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "KICK PLATE 8400 10\" HIGH LDW B-CS",
+          "catalog_number": "8400",
+          "mfr": "IVE",
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "RAIN DRIP - AS REQUIRED AA ZER",
+          "catalog_number": "142AA",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    },
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "184",
+      "description": null,
+      "location": {
+        "page_start": 157,
+        "page_end": 157,
+        "bbox": null,
+        "line_range": [
+          34,
+          43
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "1",
+          "description": "PIVOT SET",
+          "catalog_number": "7230F",
+          "mfr": null,
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "INTERMEDIATE PIVOT",
+          "catalog_number": "7230F",
+          "mfr": null,
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "PUSH/PULL LATCH 5\" A L",
+          "catalog_number": "HL6",
+          "mfr": "SCH",
+          "finish": "626",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "SURFACE CLOSER 4041 DEL SCUSH TBSRT",
+          "catalog_number": null,
+          "mfr": "LCN",
+          "finish": "689",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "GASKETING PSA BK ZER",
+          "catalog_number": "188SBK",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    },
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "132",
+      "description": null,
+      "location": {
+        "page_start": 126,
+        "page_end": 127,
+        "bbox": null,
+        "line_range": [
+          55,
+          55
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "1",
+          "description": "PIVOT SET",
+          "catalog_number": "7230F",
+          "mfr": null,
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "INTERMEDIATE PIVOT INT",
+          "catalog_number": "7230F",
+          "mfr": "IVE",
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "POWER TRANSFER CON",
+          "catalog_number": "EPT10",
+          "mfr": "VON",
+          "finish": "689",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "INTEGRATED 12/24",
+          "catalog_number": "AD-300-CY-70-MT-RHO-B",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "SFIC CONST. CORE -",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "PERMANENT CORE -",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "SURFACE CLOSER 4040XP TBSRT/",
+          "catalog_number": "4040XP",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "WALL STOP",
+          "catalog_number": "WS401/402CCV",
+          "mfr": "IVE",
+          "finish": "626",
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    },
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "12",
+      "description": null,
+      "location": {
+        "page_start": 27,
+        "page_end": 28,
+        "bbox": null,
+        "line_range": [
+          69,
+          69
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "3",
+          "description": "HEAVYWEIGHT HINGE 5BB1HW 4.5 X NRP",
+          "catalog_number": "5BB1HW",
+          "mfr": "IVE",
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "POWER TRANSFER",
+          "catalog_number": "EPT10",
+          "mfr": null,
+          "finish": "689",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "ELEC PANIC",
+          "catalog_number": "RX-LC-98-EO-ALK-EMERG",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "MORTISE CYLINDER X CAM - AS",
+          "catalog_number": "1E74-PATD",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "PERMANENT CORE -",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "SURFACE CLOSER SCUSH SRI TBSRT",
+          "catalog_number": "4040XP",
+          "mfr": "LCN",
+          "finish": "689",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "RAIN DRIP - AS REQUIRED AA ZER",
+          "catalog_number": "142AA",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "GASKETING AA ZER",
+          "catalog_number": "429AA-S",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    },
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "10",
+      "description": null,
+      "location": {
+        "page_start": 27,
+        "page_end": 27,
+        "bbox": null,
+        "line_range": [
+          29,
+          63
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "3",
+          "description": "HEAVYWEIGHT HINGE 5BB1HW 4.5 X NRP",
+          "catalog_number": "5BB1HW",
+          "mfr": "IVE",
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "TRANSFER CON",
+          "catalog_number": "EPT10",
+          "mfr": null,
+          "finish": "689",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "FAIL",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "PERMANENT CORE -",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "SURFACE CLOSER SCUSH SRI TBSRT",
+          "catalog_number": "4040XP",
+          "mfr": "LCN",
+          "finish": "689",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "KICK PLATE 8400 10\" HIGH LDW B-CS",
+          "catalog_number": "8400",
+          "mfr": "IVE",
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "RAIN DRIP - AS AA ZER",
+          "catalog_number": "142AA",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "GASKETING AA ZER",
+          "catalog_number": "429AA-S",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    },
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "30",
+      "description": null,
+      "location": {
+        "page_start": 40,
+        "page_end": 40,
+        "bbox": null,
+        "line_range": [
+          36,
+          82
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "3",
+          "description": "HEAVYWEIGHT HINGE 5BB1HW 4.5 X NRP",
+          "catalog_number": "5BB1HW",
+          "mfr": "IVE",
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "POWER TRANSFER",
+          "catalog_number": "EPT10",
+          "mfr": null,
+          "finish": "689",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "ELEC PANIC",
+          "catalog_number": "LXRX-LC-QEL-98-NL-CON-SNB",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "RIM CYLINDER - AS",
+          "catalog_number": "IE72-PATD",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "OH STOP GLY",
+          "catalog_number": "100S",
+          "mfr": null,
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "FIRE/LIFE CLOSER X MTG VOLTAGE AS",
+          "catalog_number": "4040SE",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "KICK PLATE 8400 10\" HIGH LDW B-CS",
+          "catalog_number": "8400",
+          "mfr": "IVE",
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "RAIN DRIP - AS REQUIRED AA ZER",
+          "catalog_number": "142AA",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    },
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "70",
+      "description": null,
+      "location": {
+        "page_start": 72,
+        "page_end": 72,
+        "bbox": null,
+        "line_range": [
+          38,
+          55
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "6",
+          "description": "HEAVYWEIGHT HINGE 5BB1HW 4.5 X - NRP AT",
+          "catalog_number": "5BB1HW",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "2",
+          "description": "FIRE EXIT HARDWARE",
+          "catalog_number": "9827-EO-F-LBR/LBRAFL-499F-",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "2",
+          "description": "SURFACE CLOSER 4040XP TBSRT/",
+          "catalog_number": "4040XP",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "2",
+          "description": "FIRE/LIFE",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    },
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "76",
+      "description": null,
+      "location": {
+        "page_start": 75,
+        "page_end": 75,
+        "bbox": null,
+        "line_range": [
+          17,
+          39
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "6",
+          "description": "HEAVYWEIGHT HINGE 5BB1HW 4.5 X - NRP AT",
+          "catalog_number": "5BB1HW",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "AUTO FLUSH BOLT - AS REQUIRED",
+          "catalog_number": "FB41T/FB31T",
+          "mfr": "IVE",
+          "finish": "630",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "PASSAGE 9K30N BES",
+          "catalog_number": "9K30N",
+          "mfr": "BES",
+          "finish": "626",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "COORDINATOR COR X FL X MB - AS",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "OH STOP X J BKT - AS",
+          "catalog_number": "90S",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "2",
+          "description": "SURFACE 4040XP REG TBSRT/",
+          "catalog_number": "4040XP",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "2",
+          "description": "WALL STOP",
+          "catalog_number": "WS401/402CCV",
+          "mfr": "IVE",
+          "finish": "626",
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    },
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "159",
+      "description": null,
+      "location": {
+        "page_start": 144,
+        "page_end": 144,
+        "bbox": null,
+        "line_range": [
+          23,
+          46
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "3",
+          "description": "HEAVYWEIGHT HINGE 5BB1HW 4.5 X - NRP AT",
+          "catalog_number": "5BB1HW",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "PASSAGE SET 9K30N BES",
+          "catalog_number": "9K30N",
+          "mfr": "BES",
+          "finish": "626",
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "OH STOP X J BKT - AS",
+          "catalog_number": "90S",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "PA OR RA CLOSER 4040XP REG / EDA - AS",
+          "catalog_number": "4040XP",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "SURFACE SCUSH TBSRT",
+          "catalog_number": "4040XP",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "3",
+          "description": "SILENCER GRY",
+          "catalog_number": "SR64",
+          "mfr": "IVE",
+          "finish": null,
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    },
+    {
+      "doc_path": "data/HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "set_number": "188",
+      "description": null,
+      "location": {
+        "page_start": 159,
+        "page_end": 159,
+        "bbox": null,
+        "line_range": [
+          9,
+          25
+        ]
+      },
+      "gold_components": [
+        {
+          "qty": "3",
+          "description": "HEAVYWEIGHT HINGE 5BB1HW 4.5 X - NRP AT",
+          "catalog_number": "5BB1HW",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "PUSH/PULL PRIVACY",
+          "catalog_number": null,
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "1",
+          "description": "OH STOP X J BKT - AS",
+          "catalog_number": "90S",
+          "mfr": null,
+          "finish": null,
+          "notes": null
+        },
+        {
+          "qty": "3",
+          "description": "SILENCER GRY",
+          "catalog_number": "SR64",
+          "mfr": "IVE",
+          "finish": null,
+          "notes": null
+        }
+      ],
+      "annotation_notes": "Review values against PDF. Edit only wrong fields; keep null if truly missing."
+    }
+  ]
+}

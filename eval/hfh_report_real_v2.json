@@ -1,0 +1,29 @@
+{
+  "set_recall_on_sample": 1.0,
+  "sampled_sets": 20,
+  "matched_sets": 20,
+  "field_accuracy": {
+    "qty": 1.0,
+    "catalog_number": 0.8155,
+    "mfr": 0.8605,
+    "finish": 1.0
+  },
+  "field_counts": {
+    "qty": {
+      "correct": 134,
+      "total": 134
+    },
+    "catalog_number": {
+      "correct": 84,
+      "total": 103
+    },
+    "mfr": {
+      "correct": 37,
+      "total": 43
+    },
+    "finish": {
+      "correct": 61,
+      "total": 61
+    }
+  }
+}
