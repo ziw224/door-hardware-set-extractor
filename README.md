@@ -35,8 +35,13 @@ PYTHONPATH=. python -m src.pipeline --input "<pdf-or-folder>" --output "./out/re
 ```bash
 # Bridgeport (Heading # / SET #)
 PYTHONPATH=. python -m src.pipeline \
-  --input "./data/81-85 Bridgeport" \
-  --output "./out/bridgeport_final.json"
+  --input "./data/81-85 Bridgeport/08-70-00-Hardware-Schedule.pdf" \
+  --output "./out/bridgeport_hw_schedule.json"
+
+# Bridgeport Rev_0 (Heading # / SET #, alternate file)
+PYTHONPATH=. python -m src.pipeline \
+  --input "./data/81-85 Bridgeport/08-70-00-Hardware-Schedule_Rev_0.pdf" \
+  --output "./out/bridgeport_hw_schedule_rev0.json"
 
 # JC Ryan (Set: X.X / EX-X.X)
 PYTHONPATH=. python -m src.pipeline \
@@ -61,7 +66,7 @@ PYTHONPATH=. python scripts/build_gold_from_pdf.py \
   --seed 42
 ```
 
-2. Annotate/correct gold sample (manual review), saved as:
+2. Annotate/correct gold sample (manual review in Feedback UI), saved as:
 
 - `./eval/bridgeport_gold_from_pdf_annotated_v1.json`
 
@@ -69,9 +74,9 @@ PYTHONPATH=. python scripts/build_gold_from_pdf.py \
 
 ```bash
 python scripts/evaluate.py \
-  --pred "./out/bridgeport_final.json" \
+  --pred "./out/bridgeport_hw_schedule_rev0.json" \
   --gold "./eval/bridgeport_gold_from_pdf_annotated_v1.json" \
-  --out "./eval/bridgeport_report_real_v6.json"
+  --out "./eval/bridgeport_report_real_v1.json"
 ```
 
 Current Bridgeport sampled result:
@@ -82,7 +87,7 @@ Current Bridgeport sampled result:
 - `mfr`: `1.0`
 - `finish`: `1.0`
 
-## Feedback UI (bonus, JavaScript app)
+## Feedback UI (JavaScript app)
 
 Run local app:
 
@@ -92,7 +97,7 @@ node scripts/feedback_server.js
 
 Open [http://localhost:4173](http://localhost:4173)
 
-- Left panel: 3 result files (`bridgeport`, `jcryan`, `hfh`)
+- Left panel: result files (`bridgeport_hw_schedule`, `bridgeport_hw_schedule_rev0`, `jcryan`, `hfh`)
 - Click a file to preview sets/components
 - Edit fields inline (`qty`, `description`, `catalog_number`, `mfr`, `finish`, `notes`, `resolved_description`)
 - `Save Corrected JSON` writes to `./out/corrections/<file>.corrected.json`
@@ -102,6 +107,6 @@ Open [http://localhost:4173](http://localhost:4173)
 
 ```bash
 python scripts/quality_report.py \
-  --pred "./out/bridgeport_final.json" \
+  --pred "./out/bridgeport_hw_schedule_rev0.json" \
   --out "./eval/bridgeport_quality.json"
 ```
