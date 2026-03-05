@@ -66,7 +66,7 @@ PYTHONPATH=. python scripts/build_gold_from_pdf.py \
   --seed 42
 ```
 
-2. Annotate/correct gold sample (manual review in Feedback UI), saved as:
+2. Annotate/correct gold sample, saved as:
 
 - `./eval/bridgeport_gold_from_pdf_annotated_v1.json`
 
