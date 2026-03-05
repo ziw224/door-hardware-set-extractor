@@ -56,21 +56,26 @@ PYTHONPATH=. python -m src.pipeline \
 
 ## Evaluation workflow
 
-1. Build PDF-based gold draft:
+
+1.Build prediction + gold draft for `08-70-00-Hardware-Schedule_Rev_0.pdf`:
 
 ```bash
+PYTHONPATH=. python -m src.pipeline \
+  --input "./data/81-85 Bridgeport/08-70-00-Hardware-Schedule_Rev_0.pdf" \
+  --output "./out/bridgeport_hw_schedule_rev0.json"
+
 PYTHONPATH=. python scripts/build_gold_from_pdf.py \
   --pdf "./data/81-85 Bridgeport/08-70-00-Hardware-Schedule_Rev_0.pdf" \
-  --out "./eval/bridgeport_gold_from_pdf_draft.json" \
+  --out "./eval/bridgeport_gold_from_pdf_draft_rev0.json" \
   --sample-size 20 \
   --seed 42
 ```
 
-2. Annotate/correct gold sample, saved as:
+2. Annotate/correct one gold draft and save (example):
 
 - `./eval/bridgeport_gold_from_pdf_annotated_v1.json`
 
-3. Evaluate prediction vs gold:
+3. Evaluate with matching pair:
 
 ```bash
 python scripts/evaluate.py \
