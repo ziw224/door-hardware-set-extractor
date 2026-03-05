@@ -1,0 +1,17 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Build/package metadata
+*.egg-info/
+
+# Local datasets and generated artifacts
+data/
+out/
