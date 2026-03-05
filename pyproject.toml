@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fresco-coding-challenge"
+version = "0.1.0"
+description = "Hardware set extraction starter for Fresco take-home"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pypdf>=5.0.0",
+  "pydantic>=2.8.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
